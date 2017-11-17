@@ -1,5 +1,6 @@
 language: ruby
-rvm:
+rvm: 
+  - ruby-head
   - 2.4.0
 script:
   - cucumber
