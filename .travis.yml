@@ -2,7 +2,6 @@ language: ruby
 rvm:
   - 2.4.0
 script:
-  - gem install cucumber
-  - gem install rspec
+  - bundle install
   - cucumber
   - rspec
