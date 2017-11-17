@@ -2,3 +2,5 @@ language: ruby
 script:
   - cucumber
   - rspec
+rvm:
+  - 2.4.0
